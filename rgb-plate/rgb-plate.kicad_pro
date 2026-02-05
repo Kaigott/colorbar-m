@@ -419,7 +419,19 @@
     ],
     [
       "306c944d-fb7f-45f3-afb8-ce3215d50bb1",
-      "led_matrix"
+      "led_matrix_a1"
+    ],
+    [
+      "6ed336c8-1751-4cd1-9ff2-283a681880c4",
+      "led_matrix_a2"
+    ],
+    [
+      "81b258f8-1eef-42c6-9505-f06c91c8c2fb",
+      "led_matrix_b1"
+    ],
+    [
+      "4dbc9e53-f2f9-4273-9a04-31deaf8f37ca",
+      "led_matrix_b2"
     ]
   ],
   "text_variables": {}

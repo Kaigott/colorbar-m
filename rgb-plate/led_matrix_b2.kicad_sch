@@ -1,0 +1,7469 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7295d1ac-e013-4196-a937-a965a5f2a93a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED_RGB"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_RGB"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, 6 pin package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_RGB_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_RGB_0_1"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_RGB_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "RA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "BA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 148.59 48.26) (xy 146.05 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0053b30c-838a-4e87-af97-64ee1fdd1f2c")
+	)
+	(wire
+		(pts
+			(xy 97.79 105.41) (xy 95.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d0791d-b1bb-4438-bf0e-6c8d07992d44")
+	)
+	(wire
+		(pts
+			(xy 97.79 129.54) (xy 95.25 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0108e9a6-8adc-4ae5-93e2-a6c779c09561")
+	)
+	(wire
+		(pts
+			(xy 85.09 139.7) (xy 82.55 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026832c7-a941-41b5-b192-8ba1d621b62c")
+	)
+	(wire
+		(pts
+			(xy 161.29 105.41) (xy 158.75 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bc880c-9ae5-4d2c-ab57-7499d22f21fb")
+	)
+	(wire
+		(pts
+			(xy 237.49 129.54) (xy 234.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0656a154-c267-4132-88ed-2a1ee0f41d8f")
+	)
+	(wire
+		(pts
+			(xy 148.59 43.18) (xy 146.05 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071ddb71-120d-4f4c-8c3b-e2f330e7f44b")
+	)
+	(wire
+		(pts
+			(xy 59.69 139.7) (xy 57.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07fe66db-47a5-47c7-a8eb-5bc13c7d2edc")
+	)
+	(wire
+		(pts
+			(xy 72.39 81.28) (xy 69.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083bb15a-2d0f-4562-9418-41048df30b6e")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 171.45 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089e8dec-7257-42ab-986a-e533ec6cb179")
+	)
+	(wire
+		(pts
+			(xy 148.59 139.7) (xy 146.05 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d9c513-a31b-4c96-84b1-587f2299dc42")
+	)
+	(wire
+		(pts
+			(xy 135.89 129.54) (xy 133.35 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2a00c0-0389-475b-b842-d6ca40a7516b")
+	)
+	(wire
+		(pts
+			(xy 186.69 100.33) (xy 184.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c345089-2f87-4007-abfd-87e370d25c34")
+	)
+	(wire
+		(pts
+			(xy 135.89 48.26) (xy 133.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c934b8a-a93b-45ec-a6ee-e5deef074de5")
+	)
+	(wire
+		(pts
+			(xy 237.49 110.49) (xy 234.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bde557-4db4-4315-a07c-83108532f973")
+	)
+	(wire
+		(pts
+			(xy 85.09 105.41) (xy 82.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16007b98-1171-438f-914f-732591fc253a")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 158.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16303397-3591-4eb7-8b46-8ec1666d481b")
+	)
+	(wire
+		(pts
+			(xy 85.09 53.34) (xy 82.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b6edc7-baac-414c-96df-92cabe9a1c3e")
+	)
+	(wire
+		(pts
+			(xy 161.29 53.34) (xy 158.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1790d4c7-045c-4999-a612-3272e236336d")
+	)
+	(wire
+		(pts
+			(xy 173.99 110.49) (xy 171.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d8a7f7-78d2-4b06-8818-7f653fa51d67")
+	)
+	(wire
+		(pts
+			(xy 224.79 100.33) (xy 222.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1bf612-03a8-44bc-bcdf-45fbabb82280")
+	)
+	(wire
+		(pts
+			(xy 237.49 81.28) (xy 234.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd47e0d-eca0-4fd0-b98f-bda0cc2c6ca1")
+	)
+	(wire
+		(pts
+			(xy 224.79 129.54) (xy 222.25 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f29e1d1-acf4-4c63-9425-034def530cdc")
+	)
+	(wire
+		(pts
+			(xy 97.79 71.12) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe80a80-608f-41aa-82cb-17ef898b353e")
+	)
+	(wire
+		(pts
+			(xy 97.79 53.34) (xy 95.25 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21870df8-a941-433e-9c7f-026b25af6efa")
+	)
+	(wire
+		(pts
+			(xy 237.49 139.7) (xy 234.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a4b261-e8e5-488b-89cb-9b8f20f7c85b")
+	)
+	(wire
+		(pts
+			(xy 59.69 134.62) (xy 57.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281747e7-422f-4651-8295-ed0ed8568696")
+	)
+	(wire
+		(pts
+			(xy 59.69 129.54) (xy 57.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb106e5-960c-4a7e-ab49-dcb190e897d7")
+	)
+	(wire
+		(pts
+			(xy 85.09 110.49) (xy 82.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfbc873-b1c7-454b-a160-e38d61bea0b1")
+	)
+	(wire
+		(pts
+			(xy 161.29 71.12) (xy 158.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df589d4-203e-400d-a69e-07f20977db08")
+	)
+	(wire
+		(pts
+			(xy 110.49 53.34) (xy 107.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8fd59c-0af8-42b0-ad7a-730c51cee1fc")
+	)
+	(wire
+		(pts
+			(xy 237.49 48.26) (xy 234.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3057673f-9cf8-4e91-82c7-bb3ca63e50f6")
+	)
+	(wire
+		(pts
+			(xy 123.19 105.41) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322363c8-ad4a-4049-8ec4-5f814c0be213")
+	)
+	(wire
+		(pts
+			(xy 224.79 71.12) (xy 222.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347b4493-83f6-4607-b4a2-062ce410c1fb")
+	)
+	(wire
+		(pts
+			(xy 135.89 110.49) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bd935e-4833-4780-930e-92a7f71f911d")
+	)
+	(wire
+		(pts
+			(xy 212.09 76.2) (xy 209.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374becf3-e7ec-4230-be1f-2b7fbdf2d5fa")
+	)
+	(wire
+		(pts
+			(xy 110.49 48.26) (xy 107.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3839cf17-8c1f-4673-b295-113f8dcb9a06")
+	)
+	(wire
+		(pts
+			(xy 85.09 48.26) (xy 82.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3875496b-1a0f-494b-82df-404e0351de8f")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 120.65 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39139f08-a194-408b-9d16-1a8c89e52b7a")
+	)
+	(wire
+		(pts
+			(xy 186.69 129.54) (xy 184.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3addb9e6-6d23-4c66-9dd4-03f9d9eade0a")
+	)
+	(wire
+		(pts
+			(xy 123.19 139.7) (xy 120.65 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b43189-ea5a-47c7-a7c3-bfca5f305016")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26) (xy 158.75 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4150d5b0-e9d7-429b-be26-2a965c27d35d")
+	)
+	(wire
+		(pts
+			(xy 123.19 43.18) (xy 120.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43306e2c-a2c9-4799-9801-70eba79520b8")
+	)
+	(wire
+		(pts
+			(xy 72.39 53.34) (xy 69.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454d96b0-13af-41a0-8857-3a1f4b1a3f27")
+	)
+	(wire
+		(pts
+			(xy 186.69 81.28) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ede7a7-1492-4b33-ab9c-c4614376b73c")
+	)
+	(wire
+		(pts
+			(xy 199.39 134.62) (xy 196.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481401ca-7a90-4fa4-82a6-1eefbf1bf0b1")
+	)
+	(wire
+		(pts
+			(xy 97.79 139.7) (xy 95.25 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486eabad-7754-4262-a006-64896273702b")
+	)
+	(wire
+		(pts
+			(xy 161.29 139.7) (xy 158.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3c90e5-5c52-45a6-9c7e-e76c772c3ffd")
+	)
+	(wire
+		(pts
+			(xy 224.79 81.28) (xy 222.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abb17c4-01cb-4563-8057-b42665e91b54")
+	)
+	(wire
+		(pts
+			(xy 123.19 53.34) (xy 120.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c82835d-7b4c-421b-b439-54bd8a9bd643")
+	)
+	(wire
+		(pts
+			(xy 186.69 48.26) (xy 184.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0ee635-b2ee-41e1-86ea-052ed982e038")
+	)
+	(wire
+		(pts
+			(xy 212.09 134.62) (xy 209.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e49f23d-4389-4a36-9b89-9795635d1ffb")
+	)
+	(wire
+		(pts
+			(xy 97.79 76.2) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f804b6d-e56a-40a7-b8cb-dcc0510c7aa8")
+	)
+	(wire
+		(pts
+			(xy 148.59 134.62) (xy 146.05 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510790ff-d9c9-4b5f-9f7e-ad8826ea263f")
+	)
+	(wire
+		(pts
+			(xy 148.59 110.49) (xy 146.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511ca48d-b49e-41dd-877a-e77c7c077537")
+	)
+	(wire
+		(pts
+			(xy 59.69 100.33) (xy 57.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538631fa-3777-486b-96af-d3341b29676a")
+	)
+	(wire
+		(pts
+			(xy 161.29 110.49) (xy 158.75 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e4821f-8a16-4f9f-8043-aed7bba5df5b")
+	)
+	(wire
+		(pts
+			(xy 212.09 105.41) (xy 209.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "546f3197-f47d-4a5e-8725-59f683ed73b3")
+	)
+	(wire
+		(pts
+			(xy 199.39 110.49) (xy 196.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55fff032-df2b-4d38-a141-38497cdee133")
+	)
+	(wire
+		(pts
+			(xy 199.39 48.26) (xy 196.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567246df-c093-4cf8-8529-18c30c3c5394")
+	)
+	(wire
+		(pts
+			(xy 72.39 71.12) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573d3bdd-b474-4d56-9e91-ca16d6dab954")
+	)
+	(wire
+		(pts
+			(xy 85.09 43.18) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5b9774-b2a0-41e2-bc0d-e16a69de0292")
+	)
+	(wire
+		(pts
+			(xy 173.99 48.26) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb0a015-ca71-49d1-9344-12dc78b2177d")
+	)
+	(wire
+		(pts
+			(xy 110.49 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc99716-c1e8-416e-8688-f2c7dd664e37")
+	)
+	(wire
+		(pts
+			(xy 212.09 129.54) (xy 209.55 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eed065c-818c-46b1-9b5b-8e1d2499c269")
+	)
+	(wire
+		(pts
+			(xy 148.59 100.33) (xy 146.05 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614f97ea-5f15-4f63-bc02-3092e32c9885")
+	)
+	(wire
+		(pts
+			(xy 110.49 43.18) (xy 107.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c30a24-726b-412c-bec5-63bcbc65b9ee")
+	)
+	(wire
+		(pts
+			(xy 212.09 100.33) (xy 209.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628b0845-5c2f-497b-a2dc-e95e19153d8c")
+	)
+	(wire
+		(pts
+			(xy 135.89 139.7) (xy 133.35 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6455a1c7-4a1f-4370-a33e-2c1876c95a02")
+	)
+	(wire
+		(pts
+			(xy 59.69 48.26) (xy 57.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675189bf-118c-425a-92e4-f20807a88820")
+	)
+	(wire
+		(pts
+			(xy 173.99 71.12) (xy 171.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a38f34-18e6-4b81-b5c4-b59eba09b0dc")
+	)
+	(wire
+		(pts
+			(xy 72.39 105.41) (xy 69.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6920a60d-45a1-444a-88ac-b14eae79d501")
+	)
+	(wire
+		(pts
+			(xy 173.99 134.62) (xy 171.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8f3bf5-669f-47b2-8798-b1675f2718e3")
+	)
+	(wire
+		(pts
+			(xy 110.49 100.33) (xy 107.95 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f197663-6101-4705-bcca-54548b29030b")
+	)
+	(wire
+		(pts
+			(xy 224.79 48.26) (xy 222.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7b5ab9-4e18-48bf-8730-eb0331c74dc4")
+	)
+	(wire
+		(pts
+			(xy 199.39 139.7) (xy 196.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8a9b6c-1060-49a9-99ff-9ad854f6df42")
+	)
+	(wire
+		(pts
+			(xy 110.49 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ac2cc1-603a-4734-9b4a-01db98cade18")
+	)
+	(wire
+		(pts
+			(xy 135.89 134.62) (xy 133.35 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d9b2d4-8883-4312-92e6-7298888f4194")
+	)
+	(wire
+		(pts
+			(xy 199.39 100.33) (xy 196.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d5dd40-b8ba-40bd-943a-ce2e1005dc5c")
+	)
+	(wire
+		(pts
+			(xy 173.99 76.2) (xy 171.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746c5f4c-9bd3-4380-bd0e-5884e0076937")
+	)
+	(wire
+		(pts
+			(xy 59.69 43.18) (xy 57.15 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7475e10e-ee2e-45a6-8df0-7824ca5aa1cc")
+	)
+	(wire
+		(pts
+			(xy 212.09 71.12) (xy 209.55 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750af003-4650-40c5-98fc-a1048063e1c8")
+	)
+	(wire
+		(pts
+			(xy 135.89 100.33) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76bd0752-91b0-440a-81ca-4fad418ba289")
+	)
+	(wire
+		(pts
+			(xy 186.69 105.41) (xy 184.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7734d4f4-2d07-4067-965e-c1e8c8f42ecc")
+	)
+	(wire
+		(pts
+			(xy 186.69 139.7) (xy 184.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c62efb-dd56-4faf-9ea2-e9f36636adc8")
+	)
+	(wire
+		(pts
+			(xy 135.89 81.28) (xy 133.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a93dbba-6896-43af-ae27-4a83ce54c03e")
+	)
+	(wire
+		(pts
+			(xy 161.29 81.28) (xy 158.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbb5d02-ff3e-430d-8f42-6673d29e84d4")
+	)
+	(wire
+		(pts
+			(xy 186.69 134.62) (xy 184.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bef291a-2a36-4076-a543-44a161da15bf")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea19b59-dde0-40e0-a24d-9dee051f8f80")
+	)
+	(wire
+		(pts
+			(xy 110.49 139.7) (xy 107.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1c2a81-2e01-4d49-b358-09da1588cd19")
+	)
+	(wire
+		(pts
+			(xy 59.69 105.41) (xy 57.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802b3b61-f806-421d-8136-7cfd856216df")
+	)
+	(wire
+		(pts
+			(xy 135.89 71.12) (xy 133.35 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f7febb-2b9c-4cfe-9136-64605e852e4a")
+	)
+	(wire
+		(pts
+			(xy 72.39 139.7) (xy 69.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b486d6-51b2-42ef-8ce6-4897933d63b0")
+	)
+	(wire
+		(pts
+			(xy 161.29 43.18) (xy 158.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f8c595-5a33-4e7a-b444-9942bdbbab9d")
+	)
+	(wire
+		(pts
+			(xy 173.99 139.7) (xy 171.45 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850f40b7-d44f-4e2f-b9e5-055d8b99fc00")
+	)
+	(wire
+		(pts
+			(xy 85.09 129.54) (xy 82.55 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877ae598-4eb4-4cd3-8ee9-7cf63f5c60f6")
+	)
+	(wire
+		(pts
+			(xy 123.19 129.54) (xy 120.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e52ff2-cb86-44ca-8dcc-b3015dcbadf8")
+	)
+	(wire
+		(pts
+			(xy 59.69 71.12) (xy 57.15 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b06c44e-dba3-41ef-98e0-0eb421f7dfb6")
+	)
+	(wire
+		(pts
+			(xy 237.49 43.18) (xy 234.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dec7bc5-d5f1-4564-935a-35ae538d5ea1")
+	)
+	(wire
+		(pts
+			(xy 85.09 134.62) (xy 82.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6d180f-ac78-419e-87e8-a4a558a2ac0e")
+	)
+	(wire
+		(pts
+			(xy 224.79 105.41) (xy 222.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9f9f18-0444-4892-bd9c-a4aa7aef1d29")
+	)
+	(wire
+		(pts
+			(xy 135.89 76.2) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92933283-26b2-4c5f-8ebe-62cedb6eca8d")
+	)
+	(wire
+		(pts
+			(xy 212.09 81.28) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932e4cc5-dafe-4051-82b8-05b5c654c519")
+	)
+	(wire
+		(pts
+			(xy 212.09 139.7) (xy 209.55 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b1dabe-d9e8-4e7e-8424-7ba48929aa00")
+	)
+	(wire
+		(pts
+			(xy 123.19 76.2) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c691b4-c6b3-4140-a887-0ab215e98980")
+	)
+	(wire
+		(pts
+			(xy 59.69 76.2) (xy 57.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a9927f-e234-4734-8155-498214019f01")
+	)
+	(wire
+		(pts
+			(xy 237.49 76.2) (xy 234.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962f87af-6892-47a7-b272-4e757c5884df")
+	)
+	(wire
+		(pts
+			(xy 85.09 81.28) (xy 82.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98593a6d-962d-4378-a76e-69e63a56247a")
+	)
+	(wire
+		(pts
+			(xy 59.69 53.34) (xy 57.15 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3956b6-c678-4ab0-9bd3-838a20f27d28")
+	)
+	(wire
+		(pts
+			(xy 199.39 105.41) (xy 196.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a050d6ae-6fc0-4fdb-83c6-04c4665c1232")
+	)
+	(wire
+		(pts
+			(xy 161.29 129.54) (xy 158.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0928f4b-faec-4e02-b56b-f04fbe30478c")
+	)
+	(wire
+		(pts
+			(xy 85.09 100.33) (xy 82.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2405912-5847-4985-ace6-88508a5bfeb0")
+	)
+	(wire
+		(pts
+			(xy 186.69 76.2) (xy 184.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a267c8b4-6ece-46b7-b015-b4755ca6d7d2")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 171.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a94573-977c-4e90-8476-1f6dd2cfd216")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f2a875-9e77-44ac-aeb5-e481931a1321")
+	)
+	(wire
+		(pts
+			(xy 97.79 134.62) (xy 95.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa90af9b-4fc0-469a-8ad2-604bef14a7a3")
+	)
+	(wire
+		(pts
+			(xy 148.59 105.41) (xy 146.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad41ea6c-496c-4ed8-9b24-fd50d4273e03")
+	)
+	(wire
+		(pts
+			(xy 110.49 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae00037e-02be-48a9-a0c3-0fda5695f863")
+	)
+	(wire
+		(pts
+			(xy 135.89 105.41) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af75b4ae-d0f2-4d62-b598-c9f091b27a10")
+	)
+	(wire
+		(pts
+			(xy 237.49 100.33) (xy 234.95 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b34e8b-2b3e-443d-8dd2-3c5152e7b924")
+	)
+	(wire
+		(pts
+			(xy 135.89 43.18) (xy 133.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b40ebc-c507-4424-871e-b71255891bf2")
+	)
+	(wire
+		(pts
+			(xy 110.49 110.49) (xy 107.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72e5d94-b459-4fc9-be4d-db8ccf460486")
+	)
+	(wire
+		(pts
+			(xy 85.09 71.12) (xy 82.55 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba37a8bf-d52b-4944-94fc-336ac0bab12f")
+	)
+	(wire
+		(pts
+			(xy 173.99 129.54) (xy 171.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbaf20b0-2ef4-4846-aad8-3c9db5da6c82")
+	)
+	(wire
+		(pts
+			(xy 173.99 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4ac845-dacc-446d-bb29-2130ce8ba39d")
+	)
+	(wire
+		(pts
+			(xy 224.79 53.34) (xy 222.25 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf22d100-0bf3-4200-99c9-0c197f103a6c")
+	)
+	(wire
+		(pts
+			(xy 161.29 134.62) (xy 158.75 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf509ac8-9c5d-437f-bb9f-fd36d5c3be6c")
+	)
+	(wire
+		(pts
+			(xy 212.09 110.49) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04b6cd1-1875-4feb-a6d5-5b3bdfe591d9")
+	)
+	(wire
+		(pts
+			(xy 148.59 71.12) (xy 146.05 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4af10ca-7a77-4779-86e7-387323e0e4c5")
+	)
+	(wire
+		(pts
+			(xy 72.39 134.62) (xy 69.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ff4a37-ada0-4a66-a6b0-e02390b4f4ca")
+	)
+	(wire
+		(pts
+			(xy 97.79 110.49) (xy 95.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6115cdb-fc32-468f-bc80-fa10c43caaf2")
+	)
+	(wire
+		(pts
+			(xy 72.39 48.26) (xy 69.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ca1f63-6489-4f0c-85a7-50b6a358d060")
+	)
+	(wire
+		(pts
+			(xy 212.09 48.26) (xy 209.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d64a22-45f5-4a6b-a529-e7fd8ea9ab0f")
+	)
+	(wire
+		(pts
+			(xy 199.39 81.28) (xy 196.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7dd5ec4-4c50-4a27-b3ad-8df21f290f96")
+	)
+	(wire
+		(pts
+			(xy 212.09 53.34) (xy 209.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b14293-1114-4dd0-b894-a0aa28a22567")
+	)
+	(wire
+		(pts
+			(xy 186.69 53.34) (xy 184.15 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6eaddc-f8b4-40a0-8012-d178d00b30ad")
+	)
+	(wire
+		(pts
+			(xy 237.49 134.62) (xy 234.95 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce55203b-4866-422e-9008-cca4f36b4139")
+	)
+	(wire
+		(pts
+			(xy 97.79 48.26) (xy 95.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7f7110-e6b9-4f5d-bc12-0eb80a15e23a")
+	)
+	(wire
+		(pts
+			(xy 199.39 129.54) (xy 196.85 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdd96b1-3751-42ba-ae10-e7331ff7eee5")
+	)
+	(wire
+		(pts
+			(xy 97.79 43.18) (xy 95.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05dd176-e8ff-4770-bf7a-0b7e262231c2")
+	)
+	(wire
+		(pts
+			(xy 110.49 105.41) (xy 107.95 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ff7977-fe3b-4220-9429-8c7e50fa7e9f")
+	)
+	(wire
+		(pts
+			(xy 123.19 134.62) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56033a3-a4f1-4450-9d93-1e73269357d0")
+	)
+	(wire
+		(pts
+			(xy 199.39 53.34) (xy 196.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d626c808-71de-451c-8079-90aa7f8e4f18")
+	)
+	(wire
+		(pts
+			(xy 123.19 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d655d24f-bf03-43de-9b96-55db1fd26c93")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 69.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9666005-d1de-4278-9ca2-9fd0a1c27889")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 107.95 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99203de-89bc-4fd1-81df-b145ff847eb3")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.2) (xy 146.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7a560b-2869-474f-8aed-4d2883db2a90")
+	)
+	(wire
+		(pts
+			(xy 237.49 105.41) (xy 234.95 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da90ca4d-f34b-4245-8c81-923c5646e151")
+	)
+	(wire
+		(pts
+			(xy 72.39 129.54) (xy 69.85 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab273eb-967b-4225-8614-31851ab8348a")
+	)
+	(wire
+		(pts
+			(xy 161.29 76.2) (xy 158.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0262f3-8a18-4025-8807-b748837186d3")
+	)
+	(wire
+		(pts
+			(xy 224.79 139.7) (xy 222.25 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8699a0-789b-4358-a892-4abad7a8e477")
+	)
+	(wire
+		(pts
+			(xy 97.79 81.28) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc621cbb-4031-4f0f-9653-68958d17d73b")
+	)
+	(wire
+		(pts
+			(xy 110.49 129.54) (xy 107.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd007db9-a8c3-40af-a016-a173a863e4be")
+	)
+	(wire
+		(pts
+			(xy 224.79 110.49) (xy 222.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0a79db-ecf9-4a8e-b032-f708c0385e37")
+	)
+	(wire
+		(pts
+			(xy 148.59 129.54) (xy 146.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06ca4d5-4f1b-4cde-9014-75745929ea18")
+	)
+	(wire
+		(pts
+			(xy 97.79 100.33) (xy 95.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29fc92d-97a6-4d31-87cf-f153821a25e3")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 234.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ac1420-83e4-4caa-87ec-015c119275e3")
+	)
+	(wire
+		(pts
+			(xy 186.69 110.49) (xy 184.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32bea10-ccaf-4110-942e-8579f901a4da")
+	)
+	(wire
+		(pts
+			(xy 123.19 48.26) (xy 120.65 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e428516d-2e1b-4042-94ae-49af83e85e72")
+	)
+	(wire
+		(pts
+			(xy 85.09 76.2) (xy 82.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e547faf0-8268-4e23-be9f-1ae56b9d4ce6")
+	)
+	(wire
+		(pts
+			(xy 199.39 43.18) (xy 196.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a61516-85b5-4073-913a-087725b433af")
+	)
+	(wire
+		(pts
+			(xy 199.39 71.12) (xy 196.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f13aee-2af6-4d3c-a59a-0905610f9b0a")
+	)
+	(wire
+		(pts
+			(xy 173.99 43.18) (xy 171.45 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e697f98a-ba1f-44d4-a948-60880a10e81b")
+	)
+	(wire
+		(pts
+			(xy 224.79 43.18) (xy 222.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90d9d8e-8404-4af5-974a-46088b9da5f4")
+	)
+	(wire
+		(pts
+			(xy 212.09 43.18) (xy 209.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99ab9d2-f0d5-40fb-80e2-f513df392997")
+	)
+	(wire
+		(pts
+			(xy 199.39 76.2) (xy 196.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbb131b-dc68-4355-a923-46429e7abef9")
+	)
+	(wire
+		(pts
+			(xy 186.69 71.12) (xy 184.15 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5e89d3-b2c7-4666-b3f4-500670586720")
+	)
+	(wire
+		(pts
+			(xy 135.89 53.34) (xy 133.35 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecba38ea-3c6c-4c96-a0f7-f516762a47ae")
+	)
+	(wire
+		(pts
+			(xy 72.39 110.49) (xy 69.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dc7fd3-c459-46ac-8b30-008b30d443c6")
+	)
+	(wire
+		(pts
+			(xy 173.99 105.41) (xy 171.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30f3a64-90e4-44a3-b638-7fccaf9d5c06")
+	)
+	(wire
+		(pts
+			(xy 72.39 76.2) (xy 69.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5055b2b-d9f5-4c91-a1e6-1843b2e12507")
+	)
+	(wire
+		(pts
+			(xy 224.79 76.2) (xy 222.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f7acbf-8ba2-473b-9ee6-2783d721606b")
+	)
+	(wire
+		(pts
+			(xy 148.59 53.34) (xy 146.05 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64eb446-c25d-45f2-ac7e-ca78f566d123")
+	)
+	(wire
+		(pts
+			(xy 123.19 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e17d13-8cd2-4739-8ce2-4739bf2e564a")
+	)
+	(wire
+		(pts
+			(xy 224.79 134.62) (xy 222.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2829fe-e4f2-4264-819b-a4798f184dd7")
+	)
+	(wire
+		(pts
+			(xy 59.69 110.49) (xy 57.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0c0c87-5121-4a0b-ac2b-f08b41dc65d8")
+	)
+	(wire
+		(pts
+			(xy 237.49 53.34) (xy 234.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfd1573-2008-45d6-b93d-223d5e4f41e0")
+	)
+	(wire
+		(pts
+			(xy 186.69 43.18) (xy 184.15 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feea59ea-6b7c-4b06-88c3-782f51fcef64")
+	)
+	(wire
+		(pts
+			(xy 59.69 81.28) (xy 57.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc04e21-d0ff-4003-b9c4-7dd1782fb9a1")
+	)
+	(wire
+		(pts
+			(xy 72.39 100.33) (xy 69.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe001ee-fb2b-49c8-b5c3-00648235d1b5")
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 204.47 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0185bcaf-1244-483e-b464-f8a34001a9ce")
+		(property "Reference" "D253"
+			(at 204.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 204.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 204.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9e059dcc-14cb-4473-88f8-2fb931edef01")
+		)
+		(pin "6"
+			(uuid "a1c20a9a-5478-471b-8590-9b0229e45ed9")
+		)
+		(pin "5"
+			(uuid "fb0d6cce-bebd-455c-9bde-441dbce54400")
+		)
+		(pin "4"
+			(uuid "e4d2eb50-9b27-4093-b64d-ea371ebc58ff")
+		)
+		(pin "1"
+			(uuid "61b962b5-f19d-4514-bfd0-fe33bf949c5c")
+		)
+		(pin "2"
+			(uuid "c3cd827b-5c4b-42fd-8ab1-4cafeff1518d")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D253")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 128.27 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "033a078c-1c43-448a-a02a-2f7bf0a61462")
+		(property "Reference" "D199"
+			(at 128.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aab67a8a-410d-4e14-a46d-d24740387e3b")
+		)
+		(pin "6"
+			(uuid "177dfd76-7128-46e4-8ddc-b9f7787bb78b")
+		)
+		(pin "5"
+			(uuid "74c4f48c-cce6-463b-b5f2-7f208a7754fe")
+		)
+		(pin "4"
+			(uuid "cdfad17c-4dd6-4793-8001-d4fb35b5dc7f")
+		)
+		(pin "1"
+			(uuid "389ceee2-fa3f-4452-ae56-301361e93b6a")
+		)
+		(pin "2"
+			(uuid "d41614ad-9c61-44ce-8988-7ddfa0007047")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 191.77 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "089c59f4-908b-4205-8c9a-c19bbcf1baae")
+		(property "Reference" "D220"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f4917e20-1711-4091-9e11-3bc6239558b4")
+		)
+		(pin "6"
+			(uuid "173b3a82-0cdb-4d65-867b-9458051b7fc2")
+		)
+		(pin "5"
+			(uuid "cd2bbd26-12ef-44b6-9307-29c958e4f918")
+		)
+		(pin "4"
+			(uuid "ed8514fc-a4ff-4cc4-b0a0-d4aeb7d2f580")
+		)
+		(pin "1"
+			(uuid "a1262a05-18a0-45fd-ac51-79aaedc2d8f0")
+		)
+		(pin "2"
+			(uuid "62177be5-0390-4747-9840-cc53b0dc43c8")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 77.47 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ee3f514-ceee-4b1e-b3c6-f61eb4dbb679")
+		(property "Reference" "D227"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a44c9eb5-b685-4e86-89ed-dc7bca9de27a")
+		)
+		(pin "6"
+			(uuid "612fa886-289a-4a38-9ea3-324d998a0379")
+		)
+		(pin "5"
+			(uuid "77811212-f6ca-41b4-a3dc-9a8c8c45d402")
+		)
+		(pin "4"
+			(uuid "0a7c3ece-c796-409a-a4c9-087acfb61d48")
+		)
+		(pin "1"
+			(uuid "8b113b96-0fd9-4786-9a57-b262b22740ed")
+		)
+		(pin "2"
+			(uuid "792284a8-ce30-48d6-9226-0ec276301d6f")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 204.47 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f794567-f6cb-4ff7-ae13-fec6384874d3")
+		(property "Reference" "D221"
+			(at 204.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 204.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1c327b07-5ee7-44e6-bb2a-ec153852516e")
+		)
+		(pin "6"
+			(uuid "f487747c-3a70-432c-ba21-04f601b36326")
+		)
+		(pin "5"
+			(uuid "308a3358-70b7-468a-b0a3-70291c00dc1d")
+		)
+		(pin "4"
+			(uuid "5b230899-1cd2-4a6f-94d3-2431bb4e7674")
+		)
+		(pin "1"
+			(uuid "39125d5f-751e-4fe1-ab77-ed8fba638cf8")
+		)
+		(pin "2"
+			(uuid "756afe53-be85-43a5-9215-5b01f4ef0040")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 102.87 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "101bfe0c-121b-4bb8-a6a0-6d8f664a0364")
+		(property "Reference" "D245"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 102.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 102.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0e0f00c8-4b04-4377-ab09-d60e8cd8ee59")
+		)
+		(pin "6"
+			(uuid "af3ba322-723a-4a51-b5a3-6bba81972516")
+		)
+		(pin "5"
+			(uuid "123c8513-dce2-40c6-895c-857fac3866ec")
+		)
+		(pin "4"
+			(uuid "78d80126-f4c7-4785-80ad-f49243df2e69")
+		)
+		(pin "1"
+			(uuid "31355a1d-06d8-4d0f-a63c-6effbc34f4f0")
+		)
+		(pin "2"
+			(uuid "9c637aff-f83b-4588-b0f7-10c7196b9895")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 166.37 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11cf6692-fa75-4927-b163-b7bfc77748a5")
+		(property "Reference" "D202"
+			(at 166.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 166.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 166.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b9121d6c-f855-46e6-babc-cffddf8e2ea9")
+		)
+		(pin "6"
+			(uuid "b84f7fbc-8140-495d-a2f6-931b99cff2fb")
+		)
+		(pin "5"
+			(uuid "d7ee6ff9-9670-48eb-8e0d-99d4b5b77b2b")
+		)
+		(pin "4"
+			(uuid "fdef09b9-f3b4-48f5-8db0-768026cadf3a")
+		)
+		(pin "1"
+			(uuid "ad430774-3161-4963-a6f1-b694e49bb793")
+		)
+		(pin "2"
+			(uuid "c93076ae-9562-4106-aa9c-b806a3c9ef5d")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 90.17 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a29b9c5-e871-4bd1-b7ca-c194c6a4a653")
+		(property "Reference" "D212"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 90.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8e4096b4-c379-4135-9551-3ec94e1a8018")
+		)
+		(pin "6"
+			(uuid "1dc93e57-6576-433e-a11e-4e9bc2689462")
+		)
+		(pin "5"
+			(uuid "dd6124bd-29b5-45f5-9de0-903809b14e3b")
+		)
+		(pin "4"
+			(uuid "033de32a-919e-4732-b4a3-bb0aa914eb82")
+		)
+		(pin "1"
+			(uuid "182006c6-02ef-4696-a6b2-dbdc441785eb")
+		)
+		(pin "2"
+			(uuid "f1c453db-9532-440c-9769-16ed07ff0c4c")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 90.17 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c2bfdec-2f2b-426b-9330-e9c2add36c5a")
+		(property "Reference" "D196"
+			(at 90.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 90.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "17a0be79-451d-4a94-ada2-09ae7c51d252")
+		)
+		(pin "6"
+			(uuid "94730847-ac0c-4392-a8a6-6a6dc88b4ab0")
+		)
+		(pin "5"
+			(uuid "88c066a2-8b3a-4a06-aaec-5072d47637c7")
+		)
+		(pin "4"
+			(uuid "9be5f394-23f5-4ecc-b456-6d652cb5c8bc")
+		)
+		(pin "1"
+			(uuid "a0187b1a-05f4-4e65-aebf-e3a2c9269306")
+		)
+		(pin "2"
+			(uuid "58f5a06c-c0eb-4fd2-bc2c-80b667d4b4f5")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 64.77 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21eab629-f553-4fc9-955a-690559f3e492")
+		(property "Reference" "D226"
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "78350f9c-8e76-4b6d-91ad-1e87b48f0d3b")
+		)
+		(pin "6"
+			(uuid "cdc8e15d-b3eb-4b0e-a564-5da41ec0db70")
+		)
+		(pin "5"
+			(uuid "1e1b5d28-0370-4f39-bcf3-85f4fc1567ff")
+		)
+		(pin "4"
+			(uuid "e4380af5-a257-4597-b995-be96e40cde0b")
+		)
+		(pin "1"
+			(uuid "ffbbe75c-0f50-4bc9-9c11-0725c3be107d")
+		)
+		(pin "2"
+			(uuid "40d522e1-9e20-44db-a7e4-cde8b8b13b93")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 102.87 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22a2ea93-f9d8-42c6-bb79-32593122cabd")
+		(property "Reference" "D213"
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "17fa8aa2-3ba9-4dca-9da4-7021069eeec9")
+		)
+		(pin "6"
+			(uuid "171d772d-6957-4e5f-a5a3-affcc43ac3e3")
+		)
+		(pin "5"
+			(uuid "e5f2b184-2832-4e52-86dd-d5f7f3d5f14c")
+		)
+		(pin "4"
+			(uuid "9053d658-8f14-4c50-8753-1e3a8a5eb585")
+		)
+		(pin "1"
+			(uuid "7e63f1f9-2d1e-44de-a459-f844f4f57680")
+		)
+		(pin "2"
+			(uuid "0c1400bb-1645-4e0f-b29a-6d647dc24c17")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 242.57 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22fed9cf-60d6-4dcb-b816-823991c37c0c")
+		(property "Reference" "D256"
+			(at 242.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 242.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 242.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2b9aff34-17e7-4fc0-8fc3-2c30aec106d4")
+		)
+		(pin "6"
+			(uuid "6e8f1813-5e73-4fe4-99ef-061252ac034f")
+		)
+		(pin "5"
+			(uuid "e1a09644-721f-4541-a471-cdbfd3ee3b1c")
+		)
+		(pin "4"
+			(uuid "d37c4e45-ede9-4536-afeb-9d4771c35e07")
+		)
+		(pin "1"
+			(uuid "f4f20147-2fd7-4b7e-b1db-648dfbb71740")
+		)
+		(pin "2"
+			(uuid "9b988824-a5f4-4b1a-ab60-430e56fde439")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 77.47 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "350ce97b-2628-4677-a48e-4e839714ea4c")
+		(property "Reference" "D211"
+			(at 77.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fdac894f-ab60-424a-bdb6-dba2e67cd79d")
+		)
+		(pin "6"
+			(uuid "bc366605-a5c9-4ad2-99ed-3cfabdb7ec62")
+		)
+		(pin "5"
+			(uuid "ea657cdc-7ee6-4ce0-80c8-4195a54b1f63")
+		)
+		(pin "4"
+			(uuid "92093b18-81b1-41bb-8de7-ee2145118b70")
+		)
+		(pin "1"
+			(uuid "3776cf72-3cbf-442f-ae27-17a584c5d3fe")
+		)
+		(pin "2"
+			(uuid "8afc2507-9110-4ab6-82ff-d7cbe414e76c")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 115.57 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41ce65c8-3bd7-4864-a688-d6e316b026f6")
+		(property "Reference" "D214"
+			(at 115.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c5f84a09-f872-4794-bf60-ea50d8c1bc7c")
+		)
+		(pin "6"
+			(uuid "65ae45ba-5873-4094-80f0-fa0546ccdd64")
+		)
+		(pin "5"
+			(uuid "7ac2ca0d-d2db-4136-aa61-b5af2bdcdedb")
+		)
+		(pin "4"
+			(uuid "69165571-51d9-46a3-a57f-0fa16a4a3782")
+		)
+		(pin "1"
+			(uuid "864175c3-b6cf-4c6d-9e2f-e0b213d18d69")
+		)
+		(pin "2"
+			(uuid "599641e1-5948-4353-8c68-a48068b9ff55")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 217.17 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "437c6048-4a2c-4ce5-8be2-f862fa322dae")
+		(property "Reference" "D254"
+			(at 217.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "deed697b-9a59-4ee5-9796-d37e39f4ca28")
+		)
+		(pin "6"
+			(uuid "e0c5e4ed-57b0-439b-a4fe-4bcd36a108cd")
+		)
+		(pin "5"
+			(uuid "c3d1658f-cff5-4061-8ce3-cbed73dacc09")
+		)
+		(pin "4"
+			(uuid "713801ca-8fa3-468e-86f3-bb486f7c6a7b")
+		)
+		(pin "1"
+			(uuid "3c73e381-b2a1-4a0f-94b6-9e2ed1bbeffd")
+		)
+		(pin "2"
+			(uuid "9c7045a4-c024-45d1-b7a5-3823e135702a")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D254")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 52.07 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4940512d-bbbb-4498-ba5f-10476d4f1474")
+		(property "Reference" "D193"
+			(at 52.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 52.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d1d21e6d-8771-4875-8260-43991da56dc1")
+		)
+		(pin "6"
+			(uuid "1d959bae-53a8-4496-bbb7-8f77a90f9e43")
+		)
+		(pin "5"
+			(uuid "d927b78b-f3ed-42dd-8651-3f0e4146a488")
+		)
+		(pin "4"
+			(uuid "e403bda2-4414-4165-9778-6a734ec7daae")
+		)
+		(pin "1"
+			(uuid "80c2a0bd-b4be-477d-b32c-635748da6dff")
+		)
+		(pin "2"
+			(uuid "e0f0954f-8af1-4518-99ee-fc9fd955f51c")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 115.57 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4acb27eb-86ef-43bf-9dd7-6fb94f1819cc")
+		(property "Reference" "D246"
+			(at 115.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 115.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb147aa1-eba9-43e7-99ac-28b8bffcc723")
+		)
+		(pin "6"
+			(uuid "715c6b52-dc38-4f6f-a9f6-6d225e168f2c")
+		)
+		(pin "5"
+			(uuid "306df9fd-ffcb-4fd4-ae7d-0ce997c26072")
+		)
+		(pin "4"
+			(uuid "b79f38ac-b619-4ea7-b772-f9f25e79d59a")
+		)
+		(pin "1"
+			(uuid "306aeca8-c54c-44ae-a0c5-52763b4c4ac5")
+		)
+		(pin "2"
+			(uuid "12cf76f8-52db-4fec-8762-d268fae28fa9")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 166.37 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b690e93-51ee-495b-b15b-7eed2efc7150")
+		(property "Reference" "D234"
+			(at 166.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ec634999-3631-424b-9885-ce4409ac9a2b")
+		)
+		(pin "6"
+			(uuid "e2aab2c6-fba8-42f4-b8e3-e0a8ac0d62c0")
+		)
+		(pin "5"
+			(uuid "5822fbe9-449a-4ad3-af9d-cf0b9ac8544a")
+		)
+		(pin "4"
+			(uuid "60208294-90af-4d2c-99c2-992fab7a5077")
+		)
+		(pin "1"
+			(uuid "93bc2cd9-cc61-4fb9-8489-2a501d9a3c90")
+		)
+		(pin "2"
+			(uuid "90cc03a0-ded5-42e7-a369-e54878e511ef")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 102.87 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c19eb57-682b-40da-9f0a-1f5921c6fe7b")
+		(property "Reference" "D197"
+			(at 102.87 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 102.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b6d62d3e-b4a9-43e0-b7e5-749a7dbf1fcf")
+		)
+		(pin "6"
+			(uuid "79fff3f6-9229-4b95-93a7-962932ae629a")
+		)
+		(pin "5"
+			(uuid "2bc16a3a-58db-4197-8c16-ade8923f25b5")
+		)
+		(pin "4"
+			(uuid "b4aa369c-f518-4f5e-87c0-dc779a6b7273")
+		)
+		(pin "1"
+			(uuid "14c48fc4-07cd-4cf2-b322-00abe4e85df1")
+		)
+		(pin "2"
+			(uuid "48727460-4f41-46a2-aa61-c859fccbf4d2")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 179.07 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52fef883-fc29-46d4-9af2-76fec079d5b8")
+		(property "Reference" "D235"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fc5396a2-de78-43b6-9cd7-02b7de09652d")
+		)
+		(pin "6"
+			(uuid "94e7dfde-1920-4c46-a8e4-c228af9c3058")
+		)
+		(pin "5"
+			(uuid "53a916c8-560e-4f23-ac81-a408d784b553")
+		)
+		(pin "4"
+			(uuid "bd10f414-9332-4701-980f-254cc0a39b5e")
+		)
+		(pin "1"
+			(uuid "f6153262-690c-4131-8645-71e8ef0604f0")
+		)
+		(pin "2"
+			(uuid "56d87b53-2010-41be-9d5a-23fb17a3e23c")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D235")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 242.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55bac3af-a83f-4043-8525-885087693ff8")
+		(property "Reference" "D240"
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 242.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b17bff60-0072-4733-8e67-14dbeedab07c")
+		)
+		(pin "6"
+			(uuid "aa04dd9b-fd00-4978-b5a7-9bfedcab29a6")
+		)
+		(pin "5"
+			(uuid "c077c382-2ccf-4652-bbec-fba81de1ea22")
+		)
+		(pin "4"
+			(uuid "5d38abc2-9f00-4bf8-bb22-185c208bd363")
+		)
+		(pin "1"
+			(uuid "0fc6021b-2f63-450a-a43e-ece74dd161b7")
+		)
+		(pin "2"
+			(uuid "d4223c99-7451-4026-a477-402ce5bc8870")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D240")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 140.97 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "580a909f-4e81-45f1-90a9-0774c0c4b0a6")
+		(property "Reference" "D216"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7f9fc909-ceff-4e77-b396-41d753b03ef3")
+		)
+		(pin "6"
+			(uuid "da7388d3-3009-4d40-8e53-4c725e9bfa34")
+		)
+		(pin "5"
+			(uuid "186af83b-26b7-464e-801d-5a821c50c14b")
+		)
+		(pin "4"
+			(uuid "bfd6e675-b7ab-481b-92fb-0b9dba0ede83")
+		)
+		(pin "1"
+			(uuid "03ff2079-6486-4c02-9066-bf8d69b0b19f")
+		)
+		(pin "2"
+			(uuid "ffd5f617-7586-4d16-b7ad-26e74d71973b")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 115.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a0da6f1-bc46-4c28-a09e-8744d59ffac1")
+		(property "Reference" "D230"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2dbe835b-55fd-4e38-b9e3-c054d7bf522c")
+		)
+		(pin "6"
+			(uuid "0f7c75dc-00af-468a-aa49-4a3999b135ae")
+		)
+		(pin "5"
+			(uuid "eaf631ca-111b-4f3b-bcc7-a64ca231c307")
+		)
+		(pin "4"
+			(uuid "8ee58861-2db0-467b-ad4e-86bf5689909d")
+		)
+		(pin "1"
+			(uuid "423b8a78-1549-494a-a68d-f4abeffae399")
+		)
+		(pin "2"
+			(uuid "27e5b307-9ff0-433f-9882-ef6729cf5f86")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 90.17 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60555c4f-5242-41ac-b93d-26f1516ffdb6")
+		(property "Reference" "D244"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 90.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "03ee9f27-2a0b-480d-b1d5-6175eeb31e7e")
+		)
+		(pin "6"
+			(uuid "c3717b0d-3a8b-4e96-97b7-3fd693fd211e")
+		)
+		(pin "5"
+			(uuid "d742be9c-004c-4c85-9e53-7d435d711473")
+		)
+		(pin "4"
+			(uuid "6278be7d-669c-4863-a7c1-732fb519370b")
+		)
+		(pin "1"
+			(uuid "cb9bc1aa-011c-44d2-9ad1-4f1809c65c10")
+		)
+		(pin "2"
+			(uuid "d00aa37f-2247-4ef4-a041-5c65e9ef9eb7")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 204.47 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64bd026c-bb72-42b4-816d-43a83947b446")
+		(property "Reference" "D205"
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 204.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f40e0a81-2935-4bd5-8f10-7c364bd4d7e3")
+		)
+		(pin "6"
+			(uuid "8ac41575-94c9-4d34-b841-891294dd1f20")
+		)
+		(pin "5"
+			(uuid "ed97225d-c08e-4f94-8320-1a3374860c61")
+		)
+		(pin "4"
+			(uuid "4012b312-4359-4b41-82f7-85ed4044fe09")
+		)
+		(pin "1"
+			(uuid "de2ba7c6-6b44-4a83-9eaa-1df1e1594922")
+		)
+		(pin "2"
+			(uuid "6ff28cf2-61ed-4200-a0b0-3a4bcb342fb9")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 179.07 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68166b7d-e4df-467d-8554-7e2b9eb3d5d5")
+		(property "Reference" "D251"
+			(at 179.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 179.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cbf2e933-9d9f-4d40-b03e-a048eaf90b23")
+		)
+		(pin "6"
+			(uuid "ddc7a973-c343-47eb-b4c7-64ee7c364c66")
+		)
+		(pin "5"
+			(uuid "c0426472-20da-4b5c-8c1d-0b8d5b04d857")
+		)
+		(pin "4"
+			(uuid "d76eb552-0ca5-4b13-82dd-f5423f4dab30")
+		)
+		(pin "1"
+			(uuid "955686d4-d913-4dec-8f77-c94ec3a61f1d")
+		)
+		(pin "2"
+			(uuid "0f57e149-7ec8-41cf-8214-75a5e071cad8")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 166.37 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a0b6a7d-9bf0-4922-8052-e44c61b9a2cb")
+		(property "Reference" "D218"
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "621ebe9b-6a1d-4700-b85d-b726c7516a2a")
+		)
+		(pin "6"
+			(uuid "9cc6aa97-44e2-422b-acea-b4d998b1e2c7")
+		)
+		(pin "5"
+			(uuid "fb05f9ae-db34-4cb1-9518-56d471b205bf")
+		)
+		(pin "4"
+			(uuid "824517ba-1c3d-4ff7-afb8-e4bcb945cc4b")
+		)
+		(pin "1"
+			(uuid "876d620f-a75a-4bbf-bd44-a3e95ab5e540")
+		)
+		(pin "2"
+			(uuid "a1a5b0ae-9ed3-4b1b-b285-6945ae2f3005")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 217.17 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "766ff8f3-0673-4784-a675-8df83a77b5ed")
+		(property "Reference" "D222"
+			(at 217.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 217.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1518a985-6ea0-4e7c-a3aa-44bacbd8bcd3")
+		)
+		(pin "6"
+			(uuid "7f93db25-283e-442d-a385-8af0e43aec2e")
+		)
+		(pin "5"
+			(uuid "5be1381f-607d-404d-b40a-df2aef95683b")
+		)
+		(pin "4"
+			(uuid "d4e1e342-7f21-47d7-ad9a-58cc0239d433")
+		)
+		(pin "1"
+			(uuid "900c9f41-61ad-4ffe-8f72-31f324fddc4b")
+		)
+		(pin "2"
+			(uuid "bc808c3c-6ee5-4ff2-be6a-370096112e0c")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 64.77 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "837868aa-c778-4222-80cb-5a77b5dedd96")
+		(property "Reference" "D242"
+			(at 64.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 64.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 64.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5838eefc-47b3-4b48-8023-3069228674e6")
+		)
+		(pin "6"
+			(uuid "41eb0ba6-7cde-4d35-90e8-23ab102c2107")
+		)
+		(pin "5"
+			(uuid "a006642d-7c92-49cc-8a29-b14e93459036")
+		)
+		(pin "4"
+			(uuid "34f4119f-d080-4e60-98f2-722d36115c38")
+		)
+		(pin "1"
+			(uuid "7fd1a449-3bf8-43c1-8727-a7f4fd110008")
+		)
+		(pin "2"
+			(uuid "537d7fc2-cd0d-49f8-a3a9-febb1df2b17a")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 229.87 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86e68c79-adce-4c8d-9a67-ae8530c8d385")
+		(property "Reference" "D255"
+			(at 229.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 229.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 229.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a0bdf75f-d163-42a6-893b-71c5828cd003")
+		)
+		(pin "6"
+			(uuid "f3d9c6ee-41ca-466e-85f9-5cd950c5b048")
+		)
+		(pin "5"
+			(uuid "e4a8aa51-b161-421a-aa08-22c29eecdca6")
+		)
+		(pin "4"
+			(uuid "6b46780a-7ca0-4097-9216-1d741ff58770")
+		)
+		(pin "1"
+			(uuid "b3b5ea60-684f-446a-8c50-a9d82c982503")
+		)
+		(pin "2"
+			(uuid "326c3575-b64e-41ff-a376-5befc30ed8ce")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D255")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 179.07 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8709337e-3e4a-4d2d-8dd9-e97777613fbb")
+		(property "Reference" "D219"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9a7cea90-0505-4a4a-aed9-ac0b84ac4cfe")
+		)
+		(pin "6"
+			(uuid "8e7ce9d0-c471-4778-9c1f-29f34a1bcc45")
+		)
+		(pin "5"
+			(uuid "8c76471f-e6f6-45b9-83df-bd94eb10c300")
+		)
+		(pin "4"
+			(uuid "d0381967-4d1c-4b58-9f13-816e17887426")
+		)
+		(pin "1"
+			(uuid "f87d501e-ac64-4995-96e4-ed7fb68809d7")
+		)
+		(pin "2"
+			(uuid "f8a8a42b-3e61-476f-bf6a-ebb0f033a9a7")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 140.97 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "876629d6-ac39-4123-bd86-450bdb24e814")
+		(property "Reference" "D248"
+			(at 140.97 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 140.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "629be202-5ec5-4c74-9606-89f80784c737")
+		)
+		(pin "6"
+			(uuid "b76535d5-98e2-470c-bb5e-ac692a5881d8")
+		)
+		(pin "5"
+			(uuid "6e8ceb93-8738-4a99-b70a-914cb34a1c29")
+		)
+		(pin "4"
+			(uuid "b0823af6-9ea9-47fd-9d02-101b2db8fd89")
+		)
+		(pin "1"
+			(uuid "cfb3468d-6a78-45f3-8df8-cb8dfaa71ace")
+		)
+		(pin "2"
+			(uuid "07e6d697-b42b-4b63-8646-d8ea7931e8c2")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 128.27 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88bf7b61-978c-422c-b152-81d05c528e87")
+		(property "Reference" "D247"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 128.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 128.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "77e90ae2-b4ca-436b-b9ff-0f4ba4903c28")
+		)
+		(pin "6"
+			(uuid "b9ad02b5-b0a7-4814-9c35-f963efe1a48e")
+		)
+		(pin "5"
+			(uuid "3576e5ba-8ba0-45bc-aa56-f6771011bb99")
+		)
+		(pin "4"
+			(uuid "f59aadac-bdf2-4c9d-98cc-98bcbd44c64a")
+		)
+		(pin "1"
+			(uuid "16b2cf97-f744-4323-9ff0-82224a59324e")
+		)
+		(pin "2"
+			(uuid "26885271-51ed-48e9-aaba-a3a9cc530a20")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D247")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 217.17 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac21843-c21b-44dd-883b-e1378324e89f")
+		(property "Reference" "D238"
+			(at 217.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 217.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 217.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "46dc7b73-4fec-4eb9-a480-1d246b4a9de8")
+		)
+		(pin "6"
+			(uuid "5e3a99f7-5ce0-4a56-95cc-029dd9827a41")
+		)
+		(pin "5"
+			(uuid "8276bbe5-e6f0-4f26-9b6d-f62797a46d6d")
+		)
+		(pin "4"
+			(uuid "ce44fa48-2d86-4b13-9308-ac6e0ac6f231")
+		)
+		(pin "1"
+			(uuid "bc5cc70f-a500-4fd7-bcd1-9e54ac25d370")
+		)
+		(pin "2"
+			(uuid "d895466f-7fa6-462d-93ca-98aaa3af0e53")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 52.07 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "910260ff-2ec5-4a83-94f5-61f6214734bc")
+		(property "Reference" "D225"
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 52.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 52.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "08562ce8-41fa-4a15-8085-033ac76e73f3")
+		)
+		(pin "6"
+			(uuid "2ca6ccc0-a97a-42fa-8ba2-2f504822cc51")
+		)
+		(pin "5"
+			(uuid "ed083a6b-8647-4650-9706-90cdca96c95b")
+		)
+		(pin "4"
+			(uuid "19725444-a86d-41f9-bf26-6d025d71e336")
+		)
+		(pin "1"
+			(uuid "2107d8fe-1e2f-48d5-99c4-8ccbe82d3bec")
+		)
+		(pin "2"
+			(uuid "2da141e1-3e3b-4884-9eb6-788d81901be3")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 52.07 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "969139ab-76a7-4122-946f-8b1796a6af5f")
+		(property "Reference" "D241"
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "013de3d4-0d85-47d0-83c3-4163ea44d6a8")
+		)
+		(pin "6"
+			(uuid "41a97502-2e85-4c81-9e8a-1c692d567da1")
+		)
+		(pin "5"
+			(uuid "6e69c05f-268a-4b56-88c5-4769c2b3e488")
+		)
+		(pin "4"
+			(uuid "6d45b2ac-97d0-428e-9833-63ee842f3a43")
+		)
+		(pin "1"
+			(uuid "ab7d6a1c-49f1-4d0c-a744-e419c3b58ecd")
+		)
+		(pin "2"
+			(uuid "3f17ca90-a0ae-4e4f-91fb-3c1b7f2d1317")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D241")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 153.67 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d6af8d-2320-4a3b-bb85-9f605cec2fda")
+		(property "Reference" "D249"
+			(at 153.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 153.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 153.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9c90b799-1fd8-4c3c-8ab6-bcf11af4cf8b")
+		)
+		(pin "6"
+			(uuid "ed28282b-1f8b-4e14-8a66-41ebf77695cb")
+		)
+		(pin "5"
+			(uuid "7c7f28e2-efe5-4dd2-beb9-4a4c9cbbd472")
+		)
+		(pin "4"
+			(uuid "1b0eaa0b-66ec-47b2-b151-805306eff6ba")
+		)
+		(pin "1"
+			(uuid "df2e37cf-6626-4be4-a016-7a500178fbc3")
+		)
+		(pin "2"
+			(uuid "1da611bb-a94f-40f8-99dd-4a066936fdaf")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D249")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 102.87 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1b3fc0d-eeca-4349-bc32-c483d647dc0c")
+		(property "Reference" "D229"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "40208c7a-bebf-4d86-a11f-044808235bda")
+		)
+		(pin "6"
+			(uuid "b6b849a9-54ac-4bc5-9bca-ed556b13b009")
+		)
+		(pin "5"
+			(uuid "600280e3-a67e-4002-8b91-fecaf2929736")
+		)
+		(pin "4"
+			(uuid "d6fe69b8-785d-49d3-a8c5-7b249a57b2fc")
+		)
+		(pin "1"
+			(uuid "db293980-c7a5-4541-adb7-a875f35e4c8d")
+		)
+		(pin "2"
+			(uuid "6d5ec950-b8a5-41ea-958b-44023ee43abd")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D229")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 191.77 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a214abfb-f2ca-40df-b9b1-d94f19b7ff75")
+		(property "Reference" "D252"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 191.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 191.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "51624191-d302-40cf-8e1c-a605dca63da9")
+		)
+		(pin "6"
+			(uuid "5e242c8e-20cd-4b12-a67b-c828d49d31bf")
+		)
+		(pin "5"
+			(uuid "4015d6d4-6937-407e-8431-c180572ee990")
+		)
+		(pin "4"
+			(uuid "c38d02a6-a24c-400f-8bcd-777726f0da55")
+		)
+		(pin "1"
+			(uuid "d8e3b19c-e82f-4567-ab40-0bd07c81c0be")
+		)
+		(pin "2"
+			(uuid "4d3abb15-f41e-4764-a120-464e4edd0125")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 179.07 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4156f55-a4f9-49f6-b5a8-85c7c37bcbd3")
+		(property "Reference" "D203"
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 179.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fba84ddb-7743-4ff1-a798-a4ddf54b4033")
+		)
+		(pin "6"
+			(uuid "a5ec463f-f7d8-4c21-b0a7-ca2735696139")
+		)
+		(pin "5"
+			(uuid "471d3025-d8e7-4d03-a140-c98a473b2d90")
+		)
+		(pin "4"
+			(uuid "349ce58c-426a-4cdd-a916-1ffabeb475e2")
+		)
+		(pin "1"
+			(uuid "f278f605-6175-433b-b1c7-8552c6ab7c74")
+		)
+		(pin "2"
+			(uuid "f5bfa49f-f409-42f9-a7ca-34a798f35703")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 166.37 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a756616f-1940-484c-b179-e3babe1d5d92")
+		(property "Reference" "D250"
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 166.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ba958860-6816-408a-9efb-5d112010836d")
+		)
+		(pin "6"
+			(uuid "98e7e29a-7cdb-4523-9ce9-ebde7d6f620c")
+		)
+		(pin "5"
+			(uuid "a7e9a96e-9cf2-4c1e-8a33-0c62a00b90ed")
+		)
+		(pin "4"
+			(uuid "e9639c90-64ab-42eb-88b1-95d78736929b")
+		)
+		(pin "1"
+			(uuid "f388657e-fdd5-46b6-82af-7d4d7c9dd68b")
+		)
+		(pin "2"
+			(uuid "a0a5f222-2bd0-4041-8330-1594aa5b258b")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 153.67 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7b383bf-7845-4507-8015-05ad81616542")
+		(property "Reference" "D201"
+			(at 153.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0105fb3e-ad4d-4663-9d46-ffda59a08e70")
+		)
+		(pin "6"
+			(uuid "c3148c55-a5ac-49f8-85d6-278cdd681d3b")
+		)
+		(pin "5"
+			(uuid "37bfbba5-7a75-4f33-bf54-7b9459efc2df")
+		)
+		(pin "4"
+			(uuid "2d69ed46-5f37-429a-b459-530b2c520faa")
+		)
+		(pin "1"
+			(uuid "5e7dd2b2-a19c-45af-b0ab-d9e796b535d1")
+		)
+		(pin "2"
+			(uuid "ce9eef84-7300-478e-a4d9-ef8d6131c5ee")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 115.57 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa976f2b-8969-4639-aa85-202d826e8b49")
+		(property "Reference" "D198"
+			(at 115.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 115.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7d1af808-df8c-4d5b-aae5-d33e243ffa2a")
+		)
+		(pin "6"
+			(uuid "e299f21c-d916-48c6-9b78-32a864cba7e6")
+		)
+		(pin "5"
+			(uuid "e80c0ea1-74a6-4f3a-b0a2-d5b4bfd82e70")
+		)
+		(pin "4"
+			(uuid "ae39fe60-7438-46b5-ac5e-7ed630ee6421")
+		)
+		(pin "1"
+			(uuid "145a26a8-85ec-4269-813f-79d525fd7ca3")
+		)
+		(pin "2"
+			(uuid "d883331f-2d43-4965-9aaf-1f5db302775e")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 77.47 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf657d77-13b7-48e4-88ea-99e18cd42396")
+		(property "Reference" "D195"
+			(at 77.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 77.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 77.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cca56d9f-3979-4768-a417-02e68f3776ac")
+		)
+		(pin "6"
+			(uuid "32d5b898-2047-4607-9b64-94a4c8fd1483")
+		)
+		(pin "5"
+			(uuid "a1a482f0-74ee-4a3d-bf8b-f121dc948171")
+		)
+		(pin "4"
+			(uuid "954e82ca-447f-4089-bd67-9b0934a742b5")
+		)
+		(pin "1"
+			(uuid "8a41b642-880f-495f-9a4e-8f8443e65353")
+		)
+		(pin "2"
+			(uuid "4ecee1c7-7c43-4ef9-bfba-35924b5a6948")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 229.87 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c4e72e-e5da-4278-8f85-a94adf0fef41")
+		(property "Reference" "D223"
+			(at 229.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 229.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 229.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "109b45ff-67a4-4b29-b8da-0852c7d40b16")
+		)
+		(pin "6"
+			(uuid "3947f72f-0273-410a-a2b4-d8e4de18dd3f")
+		)
+		(pin "5"
+			(uuid "958332f0-ed75-438f-bec2-3dba05e5972c")
+		)
+		(pin "4"
+			(uuid "95d95f89-5d2a-405f-af3d-ea0ac7b0917f")
+		)
+		(pin "1"
+			(uuid "86600a67-ea5a-44e8-bb72-3b1a3dedbdcc")
+		)
+		(pin "2"
+			(uuid "22c08e61-c0c2-4c74-af0b-019001e426d3")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 229.87 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a2bdda-4f43-400b-9202-77091e43a649")
+		(property "Reference" "D239"
+			(at 229.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 229.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8456d670-d567-4f2c-bbe9-f3dc7f70db7c")
+		)
+		(pin "6"
+			(uuid "0a835341-3186-4aab-b420-a07d4a9e6721")
+		)
+		(pin "5"
+			(uuid "03a6e33a-3f29-47b8-a60a-3de820b60b32")
+		)
+		(pin "4"
+			(uuid "06640744-da60-405d-b877-ea7600c4fbde")
+		)
+		(pin "1"
+			(uuid "b036866e-0215-445b-8697-b026c9797862")
+		)
+		(pin "2"
+			(uuid "c3fa8a5c-da11-41ab-bbce-49511eff3ce6")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 229.87 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6d6beb1-7fda-422b-8824-102608f56aa6")
+		(property "Reference" "D207"
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 229.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 229.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3bd66c29-703b-44f6-9a2e-d83c553a0b33")
+		)
+		(pin "6"
+			(uuid "1e951348-3128-411e-8a1a-bc71af0a0be8")
+		)
+		(pin "5"
+			(uuid "b5e35ef8-830b-4a4a-8450-f55b2810d732")
+		)
+		(pin "4"
+			(uuid "97cd7656-781b-4304-82a9-0772e7b3a8a5")
+		)
+		(pin "1"
+			(uuid "b38bc70d-f4cc-4d9d-9555-a273c69fceeb")
+		)
+		(pin "2"
+			(uuid "d25023bf-5bf6-43d8-8600-a9e3f95af52c")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 242.57 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca122787-5483-446b-91b9-ce6018f0d371")
+		(property "Reference" "D224"
+			(at 242.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 242.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1b104e89-0036-4dc8-9900-be16b2fa1716")
+		)
+		(pin "6"
+			(uuid "24ee1203-7236-452f-a200-31eb3331c193")
+		)
+		(pin "5"
+			(uuid "b43cf866-65b5-49bb-aba7-065c8bb6aacd")
+		)
+		(pin "4"
+			(uuid "8b3dbec7-564c-400d-91a7-4fd5b18975c0")
+		)
+		(pin "1"
+			(uuid "1964637a-b585-4d69-8a31-321e84668372")
+		)
+		(pin "2"
+			(uuid "c06f5412-8118-4c38-95b2-fed76ee11057")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 140.97 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdfc163b-93a2-49f3-96be-3e904d5a605d")
+		(property "Reference" "D200"
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 140.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 140.97 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e973c13e-dd7e-49ad-86b7-54222d753c36")
+		)
+		(pin "6"
+			(uuid "1afcf1b7-c636-47c0-b465-99fec419f8e2")
+		)
+		(pin "5"
+			(uuid "7fe00270-4bb4-45e3-8fe5-ba04e83374cb")
+		)
+		(pin "4"
+			(uuid "620d4736-cb2b-4cf8-869f-c845df5925c0")
+		)
+		(pin "1"
+			(uuid "0bcc441a-d865-473c-9476-59123b72be05")
+		)
+		(pin "2"
+			(uuid "bb0ae22b-e0da-4271-b2a6-8cbb5db86098")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 128.27 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6b285de-c1b2-40ab-9adc-d23794710589")
+		(property "Reference" "D215"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "48be383a-f641-47b2-b3a1-f84f36d93170")
+		)
+		(pin "6"
+			(uuid "bbbe75f5-b8ee-42ad-8e67-a48b55c09ed6")
+		)
+		(pin "5"
+			(uuid "e8e9ca50-1eb5-4bf3-a779-934627bf4ba6")
+		)
+		(pin "4"
+			(uuid "6d8d86a8-ab0e-4548-b399-8a3da264a078")
+		)
+		(pin "1"
+			(uuid "c889d602-cb0f-40dc-a3db-2398d389c137")
+		)
+		(pin "2"
+			(uuid "ff531090-9fde-4b73-a646-02d9c25ccec6")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 153.67 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d81ad333-aed3-4a0d-b583-77bf7130e1f1")
+		(property "Reference" "D233"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "971ff621-27ab-4c27-9bec-38a176685db5")
+		)
+		(pin "6"
+			(uuid "5865aedd-f1e5-4750-bec9-d10e47d38d3d")
+		)
+		(pin "5"
+			(uuid "8e843dff-0529-4208-b585-739bfcc3de77")
+		)
+		(pin "4"
+			(uuid "cd0d9cd4-24e1-4066-ae01-e4d3a23c1320")
+		)
+		(pin "1"
+			(uuid "3125f56f-c1e4-40a7-af97-0332be926c69")
+		)
+		(pin "2"
+			(uuid "9cbc0243-f015-4822-9116-f60945f7ea1b")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 242.57 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8cef3f8-8216-4d8c-bc15-bb7b438140bb")
+		(property "Reference" "D208"
+			(at 242.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 242.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 242.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "525a57dc-251a-4510-8799-ce8369332e3b")
+		)
+		(pin "6"
+			(uuid "ed4eae25-58d3-4362-8eab-4b2c64a8aba5")
+		)
+		(pin "5"
+			(uuid "f5116400-ff3b-47ff-b846-9021ce5149ea")
+		)
+		(pin "4"
+			(uuid "331e8287-5d58-4377-80ff-fe2ae0df8ffe")
+		)
+		(pin "1"
+			(uuid "bafb9940-e64f-4a5b-8c29-eeb17636170b")
+		)
+		(pin "2"
+			(uuid "b19686bc-3fde-4ad2-ac41-fdf6dbc07b79")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 204.47 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e269f17a-e6a1-46ca-a560-f83c9a05c3f2")
+		(property "Reference" "D237"
+			(at 204.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 204.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ac24efcd-df1b-4151-9c27-659d42c8a933")
+		)
+		(pin "6"
+			(uuid "12b000d7-d7e8-4f59-be1d-c34a54933add")
+		)
+		(pin "5"
+			(uuid "22607698-c2c4-43f6-9fce-cae7aa0a5b06")
+		)
+		(pin "4"
+			(uuid "2fe1562e-19ad-4474-9451-4135b42c4029")
+		)
+		(pin "1"
+			(uuid "b0532eb2-8599-4254-abc8-a4a81a627f99")
+		)
+		(pin "2"
+			(uuid "f39e0f4f-1da8-4383-8109-e49303377cac")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 77.47 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e553cb60-aec5-4d4d-8a37-e014a2ac2104")
+		(property "Reference" "D243"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 77.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f928ee90-fcdb-4d46-941e-ffce91b36467")
+		)
+		(pin "6"
+			(uuid "e2ab09db-5993-4e39-acb6-4e0dfb63911f")
+		)
+		(pin "5"
+			(uuid "d9ad1d53-aa43-4595-a665-050140c31bbf")
+		)
+		(pin "4"
+			(uuid "79437ffa-8c2a-407c-b94c-bce96abbafd3")
+		)
+		(pin "1"
+			(uuid "bca52215-d713-408e-a5a4-59ccb0c5584d")
+		)
+		(pin "2"
+			(uuid "547ec3ff-3a7a-47a2-896f-2c4b6394bba9")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 191.77 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7bef6fb-2883-40c0-b251-3e0807caa5da")
+		(property "Reference" "D204"
+			(at 191.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 191.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bcd774e4-1756-4a43-847e-c954e3eb489e")
+		)
+		(pin "6"
+			(uuid "9b79ac4b-a532-4d5a-a962-d1b84a6de651")
+		)
+		(pin "5"
+			(uuid "6793f7e9-513e-4788-8cbb-e347238a12e5")
+		)
+		(pin "4"
+			(uuid "3deb4f69-5726-4161-ac20-c1fedd32b69a")
+		)
+		(pin "1"
+			(uuid "18dce899-f04f-4edc-bcac-9f55d3f1eb00")
+		)
+		(pin "2"
+			(uuid "ee54fe76-5efa-42d4-a74c-4236c4d69c4e")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 128.27 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7ee34e3-d8ea-448d-bcd6-e0e75f71a055")
+		(property "Reference" "D231"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f1b5aa8a-1c1f-4b42-b746-736898d0acec")
+		)
+		(pin "6"
+			(uuid "3737f656-b3b1-4084-a9d2-c191d0e2fa88")
+		)
+		(pin "5"
+			(uuid "110bba54-c15a-45d8-9ef2-b603830be97d")
+		)
+		(pin "4"
+			(uuid "ac0ea5fb-1d89-4f03-801a-335e87b0a200")
+		)
+		(pin "1"
+			(uuid "3e9285dd-fcf9-4473-be2b-42567fcecbe8")
+		)
+		(pin "2"
+			(uuid "0395cbbf-7e66-4aaf-aa60-5eaf32ac151a")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D231")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 191.77 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb38bab5-4853-4235-84ff-bd1f83b14d96")
+		(property "Reference" "D236"
+			(at 191.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e19b33b9-2aff-4687-89d1-768885b18fd7")
+		)
+		(pin "6"
+			(uuid "b146855c-8064-43c5-90a7-99d0e502542e")
+		)
+		(pin "5"
+			(uuid "d959e232-f353-463b-824f-fc4b65d43edc")
+		)
+		(pin "4"
+			(uuid "eb4340b8-b8f4-4c11-a1f7-d9563ee99e1c")
+		)
+		(pin "1"
+			(uuid "75ab0877-58ab-4075-b3ca-7102191ff0ad")
+		)
+		(pin "2"
+			(uuid "23115f80-86cf-4ee6-8518-82f81b46bbfe")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 64.77 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec19b765-8622-4bf9-ab62-2de745a8b1dd")
+		(property "Reference" "D210"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 64.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fdca5329-10bc-41ec-bc7f-ec85c062920d")
+		)
+		(pin "6"
+			(uuid "ea71962e-2efb-4c67-b69d-f98632779366")
+		)
+		(pin "5"
+			(uuid "20851361-137d-4d4b-a119-c33a9068ccb6")
+		)
+		(pin "4"
+			(uuid "1e4f565f-967d-49f1-aec2-f0f37beef574")
+		)
+		(pin "1"
+			(uuid "b37785df-5181-4395-99bb-e572c8686581")
+		)
+		(pin "2"
+			(uuid "fc0c5292-6327-467b-8139-6e92a61c80d1")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 153.67 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed9bb6d3-ccc9-4213-9c39-4fe148779d86")
+		(property "Reference" "D217"
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 153.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dc3439ed-0277-4f9f-8254-64dea4bc1df2")
+		)
+		(pin "6"
+			(uuid "3bdf8f4c-f7c1-44b6-88dc-e03e046be66e")
+		)
+		(pin "5"
+			(uuid "38ff8578-af52-4f86-8f5d-9a7ab852ed23")
+		)
+		(pin "4"
+			(uuid "a69b3e53-f804-43a2-b0e9-083ada8a9800")
+		)
+		(pin "1"
+			(uuid "4a5ab46e-306d-43f5-b93e-bf844b0831ca")
+		)
+		(pin "2"
+			(uuid "8fb925c2-1e4f-4695-bd62-d02006f787b0")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 90.17 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f194d14f-f5ce-46b9-838b-99b692de1473")
+		(property "Reference" "D228"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "00d23e56-e0dd-40ff-a4fc-01db19162702")
+		)
+		(pin "6"
+			(uuid "3818c476-0fbe-4c4c-83d5-ef5a7bb831d1")
+		)
+		(pin "5"
+			(uuid "ccd451ac-15a8-4800-9361-09c70df72594")
+		)
+		(pin "4"
+			(uuid "5697fe05-2cc5-48c2-ac8f-dcf917e03aff")
+		)
+		(pin "1"
+			(uuid "61c56c4c-c3de-4be6-a1d8-6a07b9895cb2")
+		)
+		(pin "2"
+			(uuid "b1898ce7-1fdc-4ab1-ac80-a1589bcf2f80")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 140.97 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5a2f053-22ce-417b-a2f7-7826497aff9d")
+		(property "Reference" "D232"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2b4074ea-204d-4b44-85c5-15a161ed2e14")
+		)
+		(pin "6"
+			(uuid "d053992a-a30b-4fa4-b73f-d91d966c2f7b")
+		)
+		(pin "5"
+			(uuid "5cc9dda2-4663-4353-9e12-fd2cc5bd92a8")
+		)
+		(pin "4"
+			(uuid "f2dc0e93-fbd0-4c95-ad8d-85188956ccee")
+		)
+		(pin "1"
+			(uuid "c26ca71e-aa87-45d9-9b04-2ef3556c2d86")
+		)
+		(pin "2"
+			(uuid "6c8fe70d-60e7-4eca-95fd-d76785cae92d")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 217.17 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f714b8c9-78a1-4701-87d9-1a1f9428eb9d")
+		(property "Reference" "D206"
+			(at 217.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 217.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0a742395-f0f4-42a6-82ae-d286aaab78a7")
+		)
+		(pin "6"
+			(uuid "569cc516-d97e-42d7-a362-270576d900c6")
+		)
+		(pin "5"
+			(uuid "046ead49-0ab9-4eed-9dc2-3c22619f6b98")
+		)
+		(pin "4"
+			(uuid "901d55ed-01c3-4197-b243-41418768446f")
+		)
+		(pin "1"
+			(uuid "e09f6488-73e9-4313-a7ad-46398b46fc12")
+		)
+		(pin "2"
+			(uuid "005d8761-5b0f-4c89-8206-78b397315258")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 52.07 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9820950-7980-415c-b39e-7bb9492bc4aa")
+		(property "Reference" "D209"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 52.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 52.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8aceda25-cf1b-45d8-a099-ee9fa27ade93")
+		)
+		(pin "6"
+			(uuid "ec64125c-7d79-42ed-b48c-e05df98c2976")
+		)
+		(pin "5"
+			(uuid "80b35777-c1cb-4ece-9813-123c8b3af8d1")
+		)
+		(pin "4"
+			(uuid "ed3734df-9bfc-416f-8d26-c64125c970ef")
+		)
+		(pin "1"
+			(uuid "ca1ab603-d5a1-41aa-bf09-779db69db1b0")
+		)
+		(pin "2"
+			(uuid "018c111c-8267-4f99-b2c2-fd45fe0875b4")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 64.77 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff465360-bde4-432b-899b-65de58a160c7")
+		(property "Reference" "D194"
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6261cc64-863c-4fc2-8b0b-ca9ee78aaaa9")
+		)
+		(pin "6"
+			(uuid "70912bdc-c0fa-4b56-a4e3-1611d3089f84")
+		)
+		(pin "5"
+			(uuid "e6d768a0-6ed4-4981-9999-ed5a0eed1943")
+		)
+		(pin "4"
+			(uuid "24e3b89f-1772-4cac-bec5-78bdc197adb8")
+		)
+		(pin "1"
+			(uuid "d7cdda5a-18f2-433a-addd-d7222061dbe3")
+		)
+		(pin "2"
+			(uuid "5d541d92-2817-4720-abdc-9abb564af409")
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31/4dbc9e53-f2f9-4273-9a04-31deaf8f37ca"
+					(reference "D194")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
