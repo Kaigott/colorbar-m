@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9c7e9324-2b76-44c1-9f0e-b92eb5faec31")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 26.035 24.13)
+		(size 88.265 60.325)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0cb4e34c-3379-4b13-896f-77e05643736b")
+		(property "Sheetname" "matrix_driver"
+			(at 26.035 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "matrix_driver.kicad_sch"
+			(at 26.035 85.0396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 24.765)
+		(size 88.265 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "306c944d-fb7f-45f3-afb8-ce3215d50bb1")
+		(property "Sheetname" "led_matrix"
+			(at 125.73 24.0534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_matrix.kicad_sch"
+			(at 125.73 85.0396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rgb-plate"
+				(path "/9c7e9324-2b76-44c1-9f0e-b92eb5faec31"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
