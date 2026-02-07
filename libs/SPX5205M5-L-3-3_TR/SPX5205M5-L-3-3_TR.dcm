@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SPX5205M5-L-3-3_TR
+D LDO Regulator Pos 3.3V 0.15A 5-Pin SOT-23 T/R
+K
+F https://www.tme.eu/Document/506abcee3a01bb1a654b7549dae375cc/spx5205.pdf
+$ENDCMP
+#
+#End Doc Library
