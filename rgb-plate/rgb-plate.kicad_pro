@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -117,11 +123,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.1,
+        "min_connection": 0.2,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -130,7 +136,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -180,7 +186,16 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.75
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +222,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -458,7 +482,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.16,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -623,16 +647,32 @@
       "led_matrix_a1"
     ],
     [
-      "6ed336c8-1751-4cd1-9ff2-283a681880c4",
+      "d76a00d7-c152-4ec6-81f0-7d9000c92375",
       "led_matrix_a2"
     ],
     [
-      "81b258f8-1eef-42c6-9505-f06c91c8c2fb",
+      "04c2587f-2f9f-422f-98c6-a14dfc254ce9",
+      "led_matrix_a3"
+    ],
+    [
+      "12126f6a-fc2e-4d16-b387-a0d7b4870e3c",
+      "led_matrix_a4"
+    ],
+    [
+      "f50ff516-4f60-476c-96f9-5e22016a46ad",
       "led_matrix_b1"
     ],
     [
-      "4dbc9e53-f2f9-4273-9a04-31deaf8f37ca",
+      "7f01e82a-2c30-4b1b-8bfc-ef2f10a7b0b3",
       "led_matrix_b2"
+    ],
+    [
+      "6a08d319-37ed-47d1-8c4a-9400425601a5",
+      "led_matrix_b3"
+    ],
+    [
+      "4e67f2ec-6cdb-418b-b814-aa1ffed0101b",
+      "led_matrix_b4"
     ]
   ],
   "text_variables": {}
