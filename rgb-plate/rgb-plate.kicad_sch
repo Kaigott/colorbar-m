@@ -9842,7 +9842,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0cb4e34c-3379-4b13-896f-77e05643736b")
-		(property "Sheetname" "matrix_driver"
+		(property "Sheetname" "matrix_driver_conn"
 			(at 20.32 146.6084 0)
 			(effects
 				(font
@@ -9851,7 +9851,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "matrix_driver.kicad_sch"
+		(property "Sheetfile" "matrix_driver_conn.kicad_sch"
 			(at 20.32 191.0846 0)
 			(effects
 				(font

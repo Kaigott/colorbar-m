@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ul_LP5891MRRFR")(type "KiCad")(uri "C:/Users/amkkp/git/colorbar-m/libs/ul_LP5891MRRFR.pretty")(options "")(descr ""))
   (lib (name "LRTBGVSR-4U4V-JW+8A8B-D8-3S4U-7Z")(type "KiCad")(uri "C:/Users/amkkp/git/colorbar-m/libs/LRTBGVSR-4U4V-JW+8A8B-D8-3S4U-7Z")(options "")(descr ""))
+  (lib (name "CONN_BM08B-XASS-TF_JST")(type "KiCad")(uri "C:/Users/amkkp/git/colorbar-m/libs/CONN_BM08B-XASS-TF_JST.pretty")(options "")(descr ""))
 )
