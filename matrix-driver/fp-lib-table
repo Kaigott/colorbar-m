@@ -3,4 +3,5 @@
   (lib (name "CONN_BM08B-XASS-TF_JST")(type "KiCad")(uri "C:/Users/amkkp/git/colorbar-m/libs/CONN_BM08B-XASS-TF_JST.pretty")(options "")(descr ""))
   (lib (name "CONN_BM09B-XASS-TF_JST")(type "KiCad")(uri "C:/Users/amkkp/git/colorbar-m/libs/CONN_BM09B-XASS-TF_JST.pretty")(options "")(descr ""))
   (lib (name "ul_LP5891MRRFR")(type "KiCad")(uri "C:/Users/amkkp/git/colorbar-m/libs/ul_LP5891MRRFR.pretty")(options "")(descr ""))
+  (lib (name "ETQ_P3M3R3KVP")(type "KiCad")(uri "C:/Users/amkkp/git/colorbar-m/libs/ETQ_P3M3R3KVP.pretty")(options "")(descr ""))
 )
