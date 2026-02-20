@@ -3533,15 +3533,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x27")
 		(at 123.19 105.41 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e54fccb-dbe7-4148-9d57-8f8ded57846d")
 		(property "Reference" "J1"
-			(at 125.73 104.1399 0)
+			(at 125.73 106.6801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +3550,7 @@
 			)
 		)
 		(property "Value" "Conn_01x27"
-			(at 125.73 106.6799 0)
+			(at 125.73 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,15 +4082,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x27")
 		(at 91.44 105.41 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f9135960-f885-4bd6-8988-3e1bf7781e72")
 		(property "Reference" "J5"
-			(at 93.98 104.1399 0)
+			(at 93.98 106.6801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4099,7 @@
 			)
 		)
 		(property "Value" "Conn_01x27"
-			(at 93.98 106.6799 0)
+			(at 93.98 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
