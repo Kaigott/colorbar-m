@@ -1,29 +1,15 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.7*%
-%TF.CreationDate,2026-02-19T01:58:27-08:00*%
+%TF.CreationDate,2026-02-21T00:44:39-08:00*%
 %TF.ProjectId,matrix-driver,6d617472-6978-42d6-9472-697665722e6b,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Legend,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.7) date 2026-02-19 01:58:27*
+G04 Created by KiCad (PCBNEW 9.0.7) date 2026-02-21 00:44:39*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10C,0.508000*%
 G04 APERTURE END LIST*
-D10*
-%TO.C,J1*%
-X162481000Y-133570588D02*
-G75*
-G02*
-X161719000Y-133570588I-381000J0D01*
-G01*
-X161719000Y-133570588D02*
-G75*
-G02*
-X162481000Y-133570588I381000J0D01*
-G01*
-%TD*%
 M02*
